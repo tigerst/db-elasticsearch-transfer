@@ -1,0 +1,11 @@
+#项目功能</br>
+1.oracle迁移数据至elasticsearch中</br>
+2.mysql迁移数据至elasticsearch中</br>
+3.迁移模式有两种：一种是通过时间，sql中设置条件为时间范围。另一种是通过主键ID,sql中需要有ID字段或者别名，条件为ID大于或者大于等于最大ID
+#项目技术</br>
+1.druid数据库连接池</br>
+2.elasticsearch的java架包2.4.5版本</br>
+#使用</br>
+1.app.sql.model为0时，是时间模式。时间模式需要设置时间的格式，其格式与数据库中的时间字段格式对应。时间的下界为$startTime，上界为$endTime。可以只有其中之一。</br>
+2.app.sql.model为1时，是主键模式。ID只有下界$prevMaxId。</br>
+3.启动时可传外部配置，配置地址以file://开始，文件地址作为第一个参数传入启动类。</br>
