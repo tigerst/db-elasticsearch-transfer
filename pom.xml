@@ -161,6 +161,7 @@
 
 		</plugins>
 	</build>
+	<!--
 	<repositories>
 		<repository>
 			<id>lakala</id>
@@ -196,6 +197,6 @@
 			<name>Internal snapshots</name>
 			<url>http://10.7.3.2/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 
 </project>
