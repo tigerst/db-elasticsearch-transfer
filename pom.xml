@@ -19,7 +19,7 @@
 		<plugin.maven-dependency>3.0.1</plugin.maven-dependency>
 		<skipTests>true</skipTests>
 
-		<log4j.version>2.5</log4j.version>
+		<log4j.version>2.13.3</log4j.version>
 		<slf4j.version>1.7.21</slf4j.version>
 		<common.lang.version>3.5</common.lang.version>
 		<elasticsearch.version>2.4.5</elasticsearch.version>
